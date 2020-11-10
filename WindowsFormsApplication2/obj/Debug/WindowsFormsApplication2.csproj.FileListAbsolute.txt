@@ -7,3 +7,12 @@ c:\users\trifo\documents\visual studio 2015\Projects\WindowsFormsApplication2\Wi
 c:\users\trifo\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 c:\users\trifo\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 c:\users\trifo\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Trifo\Source\Repos\new_code\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

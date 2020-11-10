@@ -80,10 +80,7 @@ namespace WindowsFormsApplication2
         {
             textBox1.Text = textBox1.Text + ".";//добавяне на десетична запетая
         }
-        private void button13_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = " ";//стойностите на текстовото поле да се изтрият
-        }
+       
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -103,8 +100,17 @@ namespace WindowsFormsApplication2
         private void button14_Click(object sender, EventArgs e)
         {
             double value = Convert.ToDouble(textBox1.Text);
-            textBox2.Text = Convert.ToString((value - 32) * 5 / 9 + 273.15);
-            textBox3.Text = Convert.ToString((5.0 / 9) * (value - 32));
+            double value1 = Math.Round((value - 32) * 5 / 9 + 273.15, 2);
+            double value2 = Math.Round((5.0 / 9) * (value - 32), 2);
+            textBox2.Text = Convert.ToString(value1);
+            textBox3.Text = Convert.ToString(value2);
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
         }
     }
 }
