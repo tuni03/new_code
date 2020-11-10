@@ -24,31 +24,32 @@ namespace WindowsFormsApplication2
 
         private void button10_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "0";//текстовото поле за фаренхайт да присвои стойността  0
+            textBox1.Text = textBox1.Text + "0";//текстовото поле за фаренхайт да присвои стойността 0
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "1";//текстовото поле за фаренхайт да присвои стойността  1
+            textBox1.Text = textBox1.Text + "1";//текстовото поле за фаренхайт да присвои стойността 1
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "2";//текстовото поле за фаренхайт да присвои стойността  2      
+            textBox1.Text = textBox1.Text + "2";//текстовото поле за фаренхайт да присвои стойността 2      
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "3";//текстовото поле за фаренхайт да присвои стойността  3
+            textBox1.Text = textBox1.Text + "3";//текстовото поле за фаренхайт да присвои стойността 3
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "4";//текстовото поле за фаренхайт да присвои стойността  4
+            textBox1.Text = textBox1.Text + "4";//текстовото поле за фаренхайт да присвои стойността 4
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "5";//текстовото поле за фаренхайт да присвои стойността  5
+            textBox1.Text = textBox1.Text + "5";//текстовото поле за фаренхайт да присвои стойността 5
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -58,12 +59,12 @@ namespace WindowsFormsApplication2
 
         private void button7_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "7";//текстовото поле за фаренхайт да присвои стойността  7
+            textBox1.Text = textBox1.Text + "7";//текстовото поле за фаренхайт да присвои стойността 7
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "8";//текстовото поле за фаренхайт да присвои стойността  8
+            textBox1.Text = textBox1.Text + "8";//текстовото поле за фаренхайт да присвои стойността 8
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -80,7 +81,6 @@ namespace WindowsFormsApplication2
         {
             textBox1.Text = textBox1.Text + ".";//добавяне на десетична запетая
         }
-       
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -99,18 +99,18 @@ namespace WindowsFormsApplication2
 
         private void button14_Click(object sender, EventArgs e)
         {
-            double value = Convert.ToDouble(textBox1.Text);
-            double value1 = Math.Round((value - 32) * 5 / 9 + 273.15, 2);
-            double value2 = Math.Round((5.0 / 9) * (value - 32), 2);
-            textBox2.Text = Convert.ToString(value1);
-            textBox3.Text = Convert.ToString(value2);
+            double value = Convert.ToDouble(textBox1.Text);//стойността, която ще се въведе в текстовото поле за фаренхайт, се инициализира като реално число
+            double value1 = Math.Round((value - 32) * 5 / 9 + 273.15, 2);//формула за конвертиране от фаренхайт в келвин, с валидация за ограничение на символите след десетичната запетая до 2 символа
+            double value2 = Math.Round((5.0 / 9) * (value - 32), 2);//формула за конвертиране от фаренхайт в целзий, с валидация за ограничение на символите след десетичната запетая до 2 символа
+            textBox2.Text = Convert.ToString(value1);//получената стойност се конвертира и се извежда в полето за келвин като текстов низ
+            textBox3.Text = Convert.ToString(value2);//получената стойност се конвертира и се извежда в полето за целзий като текстов низ
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
+            textBox1.Text = "";//стойностите на текстово поле за фаренхайт се трият
+            textBox2.Text = "";//стойностите на текстово поле за келвин се трият
+            textBox3.Text = "";//стойностите на текстово поле за целзий се трият
         }
     }
 }
